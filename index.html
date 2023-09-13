@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h1 id="title">Gym Survey Form</h1>
+    <p>This survey will collect data about gym related informations</p>
+
+    <form id="survey-form">
+      <div class="word">
+        <label id="'name-label" for="name">
+          Name
+          <input placeholder="Enter your name: " id="name" type="text" />
+        </label>
+        <label for="email" id="email-label"
+          >Email<input placeholder="Enter your email: " id="email" type="email"
+        /></label>
+        <label for="number" id="number-label">
+          Age<input
+            placeholder="Enter your age: "
+            type="number"
+            id="number"
+            min="13"
+            max="120"
+        /></label>
+      </div>
+    </form>
+  </body>
+</html>
